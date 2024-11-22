@@ -1,7 +1,7 @@
 # IGTv7-Neural-Network-for-AI
 A complete Neural-Network system for AI.
 ## Chuẩn bị :
-# 1. Tải mô hình + mô hình phân tích cảm xúc = IGTv6J
+# 1. Tải mô hình + mô hình phân tích cảm xúc = IGTv6; IGTv7
 IGTv6J là một mô hình ngôn ngữ mạnh mẽ, có thể tạo ra phản hồi tự động từ ngữ cảnh hội thoại.
 
 # 2. Tải mô hình IGTv6J + IGTv7 sẽ là mô hình thông tin 1 và cảm xúc = IGTv6-2B7 ; IGTv7-2B70; IGTv7-2B90; IGTv6J
