@@ -86,7 +86,9 @@ Phân tích ý định để tăng tính cá nhân hóa.
 Xây dựng giao diện người dùng thân thiện với Tkinter.
 
 ####
-
+# How to own this model?
+my discord username : phuhung5903
+my email : phuhung5903@gmail.com
 
 
 
