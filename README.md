@@ -80,6 +80,18 @@ Ví dụ: Nếu ý định là câu hỏi, chatbot trả lời chi tiết hơn.
 11. Giao diện Tkinter
 Giao diện
 
+Đoạn mã này là một hệ thống chatbot đa năng, kết hợp nhiều công nghệ tiên tiến:
+
+Tích hợp nhiều mô hình NLP để tạo và đánh giá phản hồi.
+Sử dụng FAISS cho tìm kiếm embedding hiệu quả.
+Tích hợp API Wikipedia để cung cấp thông tin thực tế.
+Phân tích ý định để tăng tính cá nhân hóa.
+Xây dựng giao diện người dùng thân thiện với Tkinter.
+
+####
+
+
+
 
 
 
