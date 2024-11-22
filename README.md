@@ -5,7 +5,7 @@ A complete Neural-Network system for AI.
 GPT-J là một mô hình ngôn ngữ mạnh mẽ, có thể tạo ra phản hồi tự động từ ngữ cảnh hội thoại. Đoạn mã sử dụng mô hình EleutherAI/gpt-j-6B và AutoTokenizer để tải mô hình này.
 
 # 2. Tải mô hình LLaMA 2 sẽ là mô hình thông tin 1 và cảm xúc
-LLaMA 2 sẽ là một mô hình thông tin nhỏ và cảm xúc.
+LLaMA 2 sẽ là một mô hình thông tin nhỏ và cảm xúc. Có 2 loại, 1 là 7B+, 2 là 70B+
 
 # 3. Wikipedia sẽ là kho thông tin 2
 Wikipedia sẽ là 1 kho thông tin lớn.
