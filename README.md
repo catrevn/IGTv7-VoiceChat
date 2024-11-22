@@ -4,14 +4,14 @@ A complete Neural-Network system for AI.
 # 1. Tải mô hình + mô hình phân tích cảm xúc = IGTv6J
 IGTv6J là một mô hình ngôn ngữ mạnh mẽ, có thể tạo ra phản hồi tự động từ ngữ cảnh hội thoại.
 
-# 2. Tải mô hình IGTv6J sẽ là mô hình thông tin 1 và cảm xúc = IGTv6-2B7 ; IGTv6-2B70; IGTv6-2B90
-IGTv6J sẽ là một mô hình thông tin nhỏ và cảm xúc. Có 2 loại, 1 là 7B+, 2 là 70B+, loại mạnh nhất là 90B+ parameters
+# 2. Tải mô hình IGTv6J + IGTv7 sẽ là mô hình thông tin 1 và cảm xúc = IGTv6-2B7 ; IGTv7-2B70; IGTv7-2B90; IGTv6J
+IGTv6 và IGTv7 sẽ là một mô hình thông tin nhỏ và cảm xúc. Có 2 loại, 1 là 7B+, 2 là 70B+, loại mạnh nhất là 90B+ parameters
 
 # 3. Wikipedia sẽ là kho thông tin 2
 Wikipedia sẽ là 1 kho thông tin lớn.
 
 # 4 Haystack sẽ là công cụ kết hợp cả 3 thứ lại để roll ra best answer
-Haystack : kết hợp  IGTv6J wikipedia lại với nhau, chọn ra tất cả các kết quả tốt nhất trong  IGTv6J, wikipedia, sau đó kết hợp lại 1 cách hợp lý và trả lời câu hỏi cho người dùng.
+Haystack : kết hợp  IGTv6-7 wikipedia lại với nhau, chọn ra tất cả các kết quả tốt nhất trong  IGTv6-7, wikipedia, sau đó kết hợp lại 1 cách hợp lý và trả lời câu hỏi cho người dùng.
 
 # 5 Vosk sẽ là nhận dạng giọng nói
 Vosk (cho nhận dạng giọng nói) cho nhiều ngôn ngữ
@@ -26,7 +26,7 @@ Kiểm tra xem máy tính có GPU hỗ trợ CUDA không. Nếu có, mô hình s
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 3. Tải các mô hình và  IGTv6J
-IGTv6J: Sinh văn bản hội thoại.
+IGTv6-7: Sinh văn bản hội thoại.
 BERT: Dùng cho phân loại (Sequence Classification).
 DistilBERT: Phiên bản nhẹ hơn của BERT để sinh văn bản.
 
@@ -58,7 +58,7 @@ Mô hình intention_model dự đoán loại ý định dựa trên vector đó.
 Mục đích: Lấy tóm tắt từ Wikipedia để trả lời các câu hỏi của người dùng.
 
 9. Sinh phản hồi từ nhiều mô hình
-Tạo văn bản từ  IGTv6J, BERT và DistilBERT.
+Tạo văn bản từ  IGTv6-7, BERT và DistilBERT.
 Mã hóa các phản hồi thành vector.
 Chọn phản hồi tốt nhất bằng hàm select_best_response.
 
