@@ -4,8 +4,8 @@ A complete Neural-Network system for AI.
 # 1. Tải mô hình + mô hình phân tích cảm xúc = IGTv6J
 IGTv6J là một mô hình ngôn ngữ mạnh mẽ, có thể tạo ra phản hồi tự động từ ngữ cảnh hội thoại.
 
-# 2. Tải mô hình IGTv6J sẽ là mô hình thông tin 1 và cảm xúc = IGTv6-2B7 ; IGTv6-2B70
-IGTv6J sẽ là một mô hình thông tin nhỏ và cảm xúc. Có 2 loại, 1 là 7B+, 2 là 70B+
+# 2. Tải mô hình IGTv6J sẽ là mô hình thông tin 1 và cảm xúc = IGTv6-2B7 ; IGTv6-2B70; IGTv6-2B90
+IGTv6J sẽ là một mô hình thông tin nhỏ và cảm xúc. Có 2 loại, 1 là 7B+, 2 là 70B+, loại mạnh nhất là 90B+ parameters
 
 # 3. Wikipedia sẽ là kho thông tin 2
 Wikipedia sẽ là 1 kho thông tin lớn.
@@ -18,7 +18,8 @@ Vosk (cho nhận dạng giọng nói) cho nhiều ngôn ngữ
 
 # 6 DeepFace sẽ nhận diện khuôn mặt
 DeepFace (cho nhận diện khuôn mặt) nhận diện khuôn mặt
-## Các bước để tạo ra 1 mạng lưới Neural Network (7B+)
+
+## Các bước để tạo ra 1 mạng lưới Neural Network (7B -> 90B)
 1. Cấu hình thiết bị
 Kiểm tra xem máy tính có GPU hỗ trợ CUDA không. Nếu có, mô hình sẽ sử dụng GPU để tăng tốc độ tính toán.
 
