@@ -1,10 +1,10 @@
 # IGTv7-Neural-Network-for-AI
 A complete Neural-Network system for AI.
 ## Chuẩn bị :
-# 1. Tải mô hình GPT-J và mô hình phân tích cảm xúc
+# 1. Tải mô hình GPT-J và mô hình phân tích cảm xúc = IGTv6J
 GPT-J là một mô hình ngôn ngữ mạnh mẽ, có thể tạo ra phản hồi tự động từ ngữ cảnh hội thoại. Đoạn mã sử dụng mô hình EleutherAI/gpt-j-6B và AutoTokenizer để tải mô hình này.
 
-# 2. Tải mô hình LLaMA 2 sẽ là mô hình thông tin 1 và cảm xúc
+# 2. Tải mô hình LLaMA 2 sẽ là mô hình thông tin 1 và cảm xúc = IGTv6-2B7 ; IGTv6-2B70
 LLaMA 2 sẽ là một mô hình thông tin nhỏ và cảm xúc. Có 2 loại, 1 là 7B+, 2 là 70B+
 
 # 3. Wikipedia sẽ là kho thông tin 2
