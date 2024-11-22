@@ -18,7 +18,38 @@ Vosk (cho nhận dạng giọng nói) cho nhiều ngôn ngữ
 
 # 6 DeepFace sẽ nhận diện khuôn mặt
 DeepFace (cho nhận diện khuôn mặt) nhận diện khuôn mặt
-## Các bước để tạo ra 1 mạng lưới Neural Network
+## Các bước để tạo ra 1 mạng lưới Neural Network (7B+)
+1. Cấu hình thiết bị
+Kiểm tra xem máy tính có GPU hỗ trợ CUDA không. Nếu có, mô hình sẽ sử dụng GPU để tăng tốc độ tính toán.
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+3. Tải các mô hình và tokenizer
+Llama 2: Sinh văn bản hội thoại.
+BERT: Dùng cho phân loại (Sequence Classification).
+DistilBERT: Phiên bản nhẹ hơn của BERT để sinh văn bản.
+
+llama_tokenizer = AutoTokenizer.from_pretrained(...)
+llama_model = AutoModelForCausalLM.from_pretrained(...).to(device)
+bert_tokenizer = BertTokenizer.from_pretrained(...)
+bert_model = BertForSequenceClassification.from_pretrained(...).to(device)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
